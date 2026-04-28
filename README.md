@@ -6,7 +6,7 @@
 - **Server IP:** `3.223.206.143`
 - **Metrics Dashboard:** `http://monitor.inibehesunday.online:8080`
 - **GitHub Repo:** `https://github.com/sundayinibehe75-afk/hng-ddos-detector`
-- **Blog Post:** `<YOUR_BLOG_POST_URL>`
+- **Blog Post:** `https://medium.com/@sundayinibehe75/how-i-built-a-real-time-ddos-detection-engine-for-a-cloud-storage-platform-182b78b6481d`
 
 ---
 
