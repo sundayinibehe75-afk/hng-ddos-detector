@@ -1,0 +1,25 @@
+nginx:
+  log_path: /var/log/nginx/hng-access.log
+
+detection:
+  window_seconds: 60          # sliding window size
+  baseline_window_minutes: 30 # rolling baseline window
+  baseline_recalc_interval: 60 # recalculate every N seconds
+  zscore_threshold: 3.0       # z-score trigger
+  rate_multiplier: 5.0        # rate > N * mean trigger
+  error_rate_multiplier: 3.0  # error surge multiplier
+  min_baseline_samples: 10    # minimum samples before baseline is trusted
+
+ban:
+  schedule_minutes: [10, 30, 120]  # backoff: 10min, 30min, 2hr, then permanent
+
+slack:
+  webhook_url: "https://hooks.slack.com/services/YOUR/WEBHOOK/URL"
+
+dashboard:
+  host: "0.0.0.0"
+  port: 8080
+  refresh_interval: 3  # seconds
+
+audit_log:
+  path: /var/log/detector/audit.log
