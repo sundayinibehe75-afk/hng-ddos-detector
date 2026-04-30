@@ -4,7 +4,7 @@
 
 ## Live Links
 - **Server IP:** `3.223.206.143`
-- **Metrics Dashboard:** `http://monitor.inibehesunday.online:8080`
+- **Metrics Dashboard:** `https://monitor.inibehesunday.online`
 - **GitHub Repo:** `https://github.com/sundayinibehe75-afk/hng-ddos-detector`
 - **Blog Post:** `https://medium.com/@sundayinibehe75/how-i-built-a-real-time-ddos-detection-engine-for-a-cloud-storage-platform-182b78b6481d`
 
@@ -132,7 +132,7 @@ sudo docker compose logs -f detector
 | 80   | TCP      | 0.0.0.0/0 | Nginx / Nextcloud    |
 | 8080 | TCP      | 0.0.0.0/0 | Detector dashboard   |
 
-The dashboard will be live at `http://monitor.inibehesunday.online:8080`.
+The dashboard will be live at `https://monitor.inibehesunday.online`.
 
 ---
 
